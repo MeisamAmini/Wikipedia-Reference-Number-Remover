@@ -10,11 +10,11 @@
 (function() {
     'use strict';
 
-// Select all reference numbers and remove them
-const references = document.querySelectorAll("sup.reference")
-references.forEach(removeReference);
+    // Select all reference numbers and remove them
+    const references = document.querySelectorAll("sup.reference")
+    references.forEach(removeReference);
 
-function removeReference(reference, index, references) {
-	reference.remove();
-}
+    function removeReference(reference, index, references) {
+        reference.remove();
+    }
 })();
